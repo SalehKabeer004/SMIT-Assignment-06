@@ -1,0 +1,188 @@
+ .wrap {
+            width: 390px;
+            background: radial-gradient(circle at center, #024481, #001845);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+        }
+
+        .card-front {
+            width: 350px;
+            /* height: 200px; */
+            background-image: url(Vector.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            position: relative;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+        }
+
+        .chip {
+            width: 50px;
+            height: 34px;
+            margin-top:5px;
+            margin-left: 15px;
+            overflow: hidden;
+            border-radius: 6px;
+        }
+
+        .contactless {
+            width: 50px;
+            height: auto;
+            z-index: 10;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .number {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-top: -20px;
+        }
+
+        .number p {
+            font-size: 24px;
+            word-spacing: 24px;
+            font-weight: lighter;
+        }
+
+        .number img {
+            margin-left: 4px;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: -22px;
+            margin-left: 30px;
+            width: 200px;
+        }
+
+        .info p {
+            font-size: 6px;
+            letter-spacing: 1px;
+        }
+
+        .info span {
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+
+
+        .member p {
+            width: 40px;
+            margin-top: 2px;
+        }
+
+        .name {
+            margin-top: 10px;
+            letter-spacing: 1px;
+            margin-left: 30px;
+        }
+
+        .master {
+            width: 60px;
+            height: auto;
+            float: right;
+            margin-top: -55px;
+            z-index: 120;
+        }
+
+        /* back */
+
+        .card-back {
+            width: 390px;
+            height: auto;
+            border-radius: 15px;
+            background: radial-gradient(circle at center, #024481, #001845);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+        }
+
+        .card-back p {
+            font-size: 6px;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .gray {
+            height: 38px;
+            background-color: #1D1D1B;
+            margin-top: -5px;
+        }
+
+        .content {
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            width: 340px;
+        }
+
+        .content .chip-back img {
+            width: 95px;
+            margin-top: 10px;
+        }
+
+        .mark img {
+            width: 100%;
+        }
+
+        .signature {
+            display: flex;
+            justify-content: space-between;
+            color: #fff;
+            padding: 0px;
+        }
+
+       .signature p {
+        padding: 0px;
+        margin: 2px 0px 0px 0px;
+        font-size: 8px;
+       }
+
+    .term p {
+        text-align: left;
+        margin: 3px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        padding-bottom: 7px;
+        margin-top: -16px;
+    }
+
+    .logos .right {
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+    }
+
+    .link {
+        width: 40px !important;
+    }
+
+    .ic {
+        position: absolute;
+        transform: rotate(90deg);
+        right: -15px;
+        top: 120px;
+        text-align: center;
+    }
+    .ic p {
+        padding: 0px;
+    }
